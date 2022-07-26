@@ -1,0 +1,85 @@
+//Posibles entradas para el IF
+
+IF ExprBoole
+   THEN
+     BEGIN
+       Sentencia
+     END;
+
+
+IF ExprBoole             //if sin bloque else no
+   THEN
+    Sentencia
+
+
+IF ExprBoole              //if con bloque else sin bloque
+   THEN
+     BEGIN
+	Sentencia
+     END
+   ELSE
+     Sentencia
+
+
+IF ExprBoole            //if con bloque else con bloque
+   THEN
+     BEGIN
+     END
+   ELSE
+     BEGIN 
+       READLN(x, y);
+     END;
+
+
+IF ExprBoole             //if sin bloque else sin bloque
+   THEN
+    SentenciaSinPtoComa
+   ELSE
+    Sentencia
+
+
+
+IF ExprBoole             //if sin bloque else con bloque
+   THEN
+    SentenciaSinPtoComa
+   ELSE
+     Begin
+       Sentencia
+     END
+
+//Posible entradas para el FOR
+
+FOR i:=1 TO n+1 DO
+  Println(“i=”, i);
+
+
+FOR z:=2*n DOWNTO n+1 DO
+BEGIN
+  Println(“z*2=”, z*2);
+  READLN(p, q, s);
+END;
+
+
+//posibles entradas para el WHILE
+
+WHILE z=3*y and x+1<50 DO     
+  Println(“Infinito”);
+
+
+WHILE z <= 2*n DO
+BEGIN
+  Println(z);
+  READLN(p, q, s);
+  z := z+1;
+END;
+
+//posibles entradas para el REPEAT UNTIL
+
+REPEAT     
+  Println(“Infinito”);
+  z := z-1; 
+UNTIL z < 0;
+
+
+REPEAT     
+UNTIL p-1 < z*3-5;

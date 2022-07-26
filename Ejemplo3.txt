@@ -1,0 +1,41 @@
+Program Ejemplo3;  //Header
+
+(* Cuerpo: Mezcolanza de PROCEDURES y declaraciones VAR *)
+procedure algo;
+begin  //Procedimiento vacío
+end;
+
+var
+  a, b, c : boolean;
+  Altura, area : integer;
+
+var
+  i    : integer;
+  z, n : integer;
+  f    : boolean;
+
+procedure proc2;
+begin
+  i := 1; 
+  n := i + 9; 
+  while (i <= n) do
+  begin
+    if i mod 2 = 0
+       then
+         println("Es par")
+       else
+         println(i, " es impar");
+  end;
+
+  algo();
+end;
+
+{Sección Main (Obligado)}
+BEGIN	
+  algo();
+
+  for z:= i+1 TO 50 DO
+  begin
+    proc2(); 
+  end; 
+END.

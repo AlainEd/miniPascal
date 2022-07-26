@@ -1,0 +1,21 @@
+program programa;
+
+var 
+  a, n: integer;
+
+Procedure factorial;
+Begin
+  if n > 2 then
+    while n > 0 do
+    begin
+      Writeln(n);
+      n:=n-1;
+    end
+  else
+    n:=100;
+End;
+
+
+Begin 
+
+End.

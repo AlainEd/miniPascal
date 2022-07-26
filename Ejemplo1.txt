@@ -1,0 +1,4 @@
+PROGRAM factorial;	//Aqui el programador escribió el Header
+			//Pero no escribió el Cuerpo
+BEGIN	//Main (Obligado)
+END.

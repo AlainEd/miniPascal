@@ -1,0 +1,5 @@
+//Aqui el programador no escribió el Header..
+//..y tampoco el Cuerpo
+
+BEGIN	//Main (Obligado)
+END.
